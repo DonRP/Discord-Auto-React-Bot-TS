@@ -6,22 +6,19 @@ import asyncio
 bot = commands.Bot(command_prefix="#")
 
 emojis = [
-            "a:weewoo:878395500448083998",
-            "a:CoolDoge:878395321749737552",
-            "a:confetti:878395401995169792",
-            "a:clap:878394777765314650",
-            "a:pepeAhh:878395533276901466",
-            "a:incest:878396964998373436",
-            "a:lust:878391146211070003",
-            "a:handjob:702546745988612157",
-            "a:trippypepe:702541364306509935",
-            "a:analvirgin:702539631555641534",
-            "a:whatspoppin:878402018161610752",
-            "a:pepeHmm:878401392505679905",
-            "a:AngryPing:878395183950098524",
-            "a:hypepepe:702546747376926790",
-            ":facepalm:878396076888051712",
-            "a:animebooty:702546752070353007"
+            "a:weewoo:878418421572841493",
+            "a:CoolDoge:878418843737948211",
+            "a:confetti:878418500287361108",
+            "a:clap:878419052618481684",
+            "a:pepeAhh:878418334532657163",
+            "a:incest:878418954622763078",
+            "a:lust:878390258318848070",
+            "a:handjob:878390203264430110",
+            "a:whatspoppin:878418104420544552",
+            "a:pepeHmm:878418140579639326",
+            "a:AngryPing:878418810338705439",
+            ":facepalm:878735715196870708",
+            "a:animebooty:878419019164696657"
         ]
 
 @bot.event
@@ -30,7 +27,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if(message.channel.id == 772881252105453609):
+    if(message.channel.id == 850358018394161193):
         for i in emojis:
             await message.add_reaction(i)
     else:
