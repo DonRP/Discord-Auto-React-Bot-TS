@@ -28,12 +28,12 @@ emojis_feedback = [
         ]
 
 emojis_fanart = [
-            ":100:",
-            ":heart:",
-            ":thumbsup:",
-            ":thumbsdown:",
-            ":face_palm:",
-            ":face_vomiting:"
+            ":100:db009c8fa13d0f303df266e9d42c8e30",
+            ":heart:0483f2b648dcc986d01385062052ae1c",
+            ":thumbsup:28b51c7a7a5cf0f7690d36408f7646e1",
+            ":thumbsdown:28b51c7a7a5cf0f7690d36408f7646e1",
+            ":face_palm:28b51c7a7a5cf0f7690d36408f7646e1",
+            ":face_vomiting:4c931151fd94ebc6aa6034427624b2ea"
         ]
 
 emojis_fanart_approved = [
