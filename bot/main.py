@@ -22,18 +22,17 @@ emojis_annuncements = [
         ]
 
 emojis_feedback = [
-            ":heart:",
-            ":thumbsup:",
-            ":thumbsdown:",
+            ":pepecoolclap:879060405853519923",
+            ":yeahnice:879060431996596245",
+            ":yuiheadshake:879060506801999952",
         ]
 
 emojis_fanart = [
-            ":100:db009c8fa13d0f303df266e9d42c8e30",
-            ":heart:0483f2b648dcc986d01385062052ae1c",
-            ":thumbsup:28b51c7a7a5cf0f7690d36408f7646e1",
-            ":thumbsdown:28b51c7a7a5cf0f7690d36408f7646e1",
-            ":face_palm:28b51c7a7a5cf0f7690d36408f7646e1",
-            ":face_vomiting:4c931151fd94ebc6aa6034427624b2ea"
+            ":love:879060346718015498",
+            ":pepecoolclap:879060405853519923",
+            ":yeahnice:879060431996596245",
+            ":yuiheadshake:879060506801999952",
+            ":meongholywater:879060463437090887"
         ]
 
 emojis_fanart_approved = [
