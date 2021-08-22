@@ -5,7 +5,7 @@ import asyncio
 
 bot = commands.Bot(command_prefix="#")
 
-emojis = [
+emojis_annuncements = [
             "a:weewoo:878418421572841493",
             "a:CoolDoge:878418843737948211",
             "a:confetti:878418500287361108",
@@ -21,6 +21,30 @@ emojis = [
             "a:animebooty:878419019164696657"
         ]
 
+emojis_feedback = [
+            ":heart:",
+            ":thumbsup:",
+            ":thumbsdown:",
+        ]
+
+emojis_fanart = [
+            ":100:",
+            ":heart:",
+            ":thumbsup:",
+            ":thumbsdown:",
+            ":face_palm:",
+            ":face_vomiting:"
+        ]
+
+emojis_fanart_approved = [
+            "a:clap:878419052618481684",
+            "a:incest:878418954622763078",
+            "a:lust:878390258318848070",
+            "a:handjob:878390203264430110",
+            "a:pepeHmm:878418140579639326",
+            ":facepalm:878735715196870708",
+        ]
+
 @bot.event
 async def on_ready():
     print ("Bot is ready!")
@@ -28,7 +52,16 @@ async def on_ready():
 @bot.event
 async def on_message(message):
     if(message.channel.id == 850358018394161193):
-        for i in emojis:
+        for i in emojis_annuncements:
+            await message.add_reaction(i)
+    elif(message.channel.id == 850344438344974378):
+        for i in emojis_feedback:
+            await message.add_reaction(i)
+    elif(message.channel.id == 850344312327241728):
+        for i in emojis_fanart:
+            await message.add_reaction(i)
+    elif(message.channel.id == 850344378399981588):
+        for i in emojis_fanart_approved:
             await message.add_reaction(i)
     else:
         pass
