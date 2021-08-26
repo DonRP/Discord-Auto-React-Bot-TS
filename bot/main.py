@@ -59,7 +59,7 @@ async def on_message(message):
     elif(message.channel.id == 850344312327241728):
         for i in emojis_fanart:
             await message.add_reaction(i)
-    elif(message.channel.id == 850344378399981588):
+    elif(message.channel.id == 850344378399981588 or message.channel.id == 880153213490323497):
         for i in emojis_fanart_approved:
             await message.add_reaction(i)
     else:
